@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            a:link {
+                text-decoration: none;
+                color:grey;
+                float: right;
+                padding: 6px;
+                
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                color:rgb(243, 164, 18);
+            }
+
+            a:active {
+                text-decoration: underline;
+            }
+
+            .heading{
+                text-align: center;
+                margin-top: 12%;
+                font-size: 100px;
+                
+            }
+            .bar{
+                margin: 0; 
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                padding: 10px;
+                border-radius: 15px;
+                width: 25%;
+                border: 2px solid #ccc;
+                
+                
+            }
+            
+            .button{
+                margin: 0; 
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                margin-top: 5%;
+
+                border-radius: 10px;
+                border: 2px solid #c6bec7;
+                cursor: pointer;
+                padding: 10px;
+                width: 150px;
+                height: 50px;
+            }
+            .button:hover {background-color: rgb(167, 167, 167)}
+
+            
+        </style>
+    </head>
+    <body>
+        
+        <p>
+        <a href="file:///C:/Users/Menna/OneDrive/Desktop/Web%20Programming%20course/search/index.html" >Google Search</a><br>
+        
+        </p>
+        
+        <h1 class="heading"><span style="color: rgb(50, 123, 218);">G</span><span style="color: red;">o</span><span style="color: yellow;">o</span><span style="color: rgb(50, 123, 218);">g</span><span style="color: green;">l</span><span style="color: red;">e</span></h1>
+        <form action="https://www.google.com/search?">
+            <input class="bar" type="text" name="q" >
+            <input style="display: none;" name="tbm" value="isch">
+            <input class="button" type="submit" value="Google Search">
+        </form>
+    </body>
+</html>

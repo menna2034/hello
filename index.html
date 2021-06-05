@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+          <style>
+            a:link {
+                text-decoration: none;
+                color:grey;
+                float: right;
+                padding: 6px;
+                
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                color:rgb(243, 164, 18);
+            }
+
+            a:active {
+                text-decoration: underline;
+            }
+
+            .heading{
+                text-align: center;
+                margin-top: 12%;
+                font-size: 100px;
+                
+            }
+            .bar{
+                margin: 0; 
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                padding: 10px;
+                border-radius: 15px;
+                width: 40%;
+                border: 2px solid #ccc;
+                
+                
+            }
+            
+            .button{
+                margin: 0; 
+                position: absolute;
+                top: 50%;
+                left: 42%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                margin-top: 5%;
+                margin-right: 10px;
+                border-radius: 5px;
+                background-color: #f0f0f0;
+                border: 2px solid white;
+                cursor: pointer;
+                padding: 10px;
+                width: 150px;
+                height: 50px;
+            }
+            .button:hover {border: 2px solid #d8d5d8;}
+            .button2{
+                margin: 0; 
+                position: absolute;
+                top: 50%;
+                
+                left: 55%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                margin-top: 5%;
+                
+                margin-left: 10px;
+                border-radius: 5px;
+                background-color: #f0f0f0;
+                border: 2px solid white;
+                cursor: pointer;
+                padding: 10px;
+                width: 150px;
+                height: 50px;
+            }
+            .button2:hover {border: 2px solid #d8d5d8;}
+            .button2:active {border: 2px solid #4676f8;
+            
+            }
+
+
+            
+        </style>
+    </head>
+    <body>
+        
+        <p>
+        <a href="###" >Image Search</a>
+        <a  href="###">Advanced Search</a><br>
+        </p>
+        
+        <h1 class="heading"><span style="color: rgb(50, 123, 218);">G</span><span style="color: red;">o</span><span style="color: yellow;">o</span><span style="color: rgb(50, 123, 218);">g</span><span style="color: green;">l</span><span style="color: red;">e</span></h1>
+        <div>
+            <form action="https://google.com/search">
+                <input class="bar" type="text" name="q">
+                <input class="button" type="submit" value="Google Search">
+            </form>
+
+        </div>
+
+        <div>
+            <form action="https://www.google.com/doodles/">   
+                <input class="button2"  type="submit" value="I'm Feeling Lucky">
+            </form>
+        </div>
+
+    </body>
+</html>
